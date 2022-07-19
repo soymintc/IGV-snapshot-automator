@@ -203,7 +203,7 @@ def write_batchscript_regions(region_file, IGV_batchscript_file, image_height, s
         # if user specifies, group reads by read strand
         if group_by_strand:
             append_string("group strand", IGV_batchscript_file)
-        append_string("collapse")
+        append_string("collapse", IGV_batchscript_file)
         append_string("snapshot " + snapshot_filename, IGV_batchscript_file)
 
 
