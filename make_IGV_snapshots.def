@@ -6,7 +6,7 @@ From: ubuntu:16.04
     #cp -r /host ${SINGULARITY_ROOTFS}/IGV-snapshot-automator
     #cp -r /home/chois7/chois7/packages/IGV-snapshot-automator ${SINGULARITY_ROOTFS}/IGV-snapshot-automator
     cd ${SINGULARITY_ROOTFS}
-    git clone https://github.com/stevekm/IGV-snapshot-automator.git
+    git clone https://github.com/soymintc/IGV-snapshot-automator.git
 
 %post
     apt-get update && \
